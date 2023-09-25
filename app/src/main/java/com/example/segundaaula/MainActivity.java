@@ -20,7 +20,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, tela1Activity.class);
         startActivity(intent);
     }
+    public void btnTelaShop(View view){
+        Intent intent = new Intent(this, tela2Activity.class);
 
+        startActivity(intent);
+    }
+
+    public void btnTelaHead(View view){
+        Intent intent = new Intent(this, tela3Activity.class);
+        startActivity(intent);
+    }
 
 
 

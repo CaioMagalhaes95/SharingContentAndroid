@@ -40,6 +40,7 @@
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="btnTelaShop"
         android:text="Shopping"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
@@ -48,6 +49,7 @@
         android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="btnTelaHead"
         android:text="Headliner"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
