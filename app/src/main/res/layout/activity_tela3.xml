@@ -8,21 +8,26 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@tools:sample/avatars"
+        android:layout_width="432dp"
+        android:layout_height="216dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/images" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="TextView"
+        android:fontFamily="sans-serif-black"
+        android:text="Como o nome já sugere, o Headliner Gastronomia Rock é um bar em Sorocaba que oferece a mistura perfeita de bebidas, lanches eporções e música ao vivo para os amantes de um bom rock n roll."
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
@@ -30,7 +35,7 @@
         android:id="@+id/button17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="28dp"
         android:onClick="btnTela3"
         android:text="Saiba mais"
         app:layout_constraintEnd_toEndOf="parent"

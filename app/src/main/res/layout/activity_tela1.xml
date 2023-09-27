@@ -21,7 +21,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
+
                 app:srcCompat="@mipmap/zoologica"
                 tools:srcCompat="@mipmap/zoologica" />
 
@@ -29,7 +29,11 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="O Parque Zoológico Municipal “Quinzinho de Barros” funciona de terça a domingo, inclusive aos feriados,  das 09h às 17h. Excepcionalmente, estará aberto às segundas-feiras, sempre que for feriado ou véspera de feriado. A bilheteria funciona até as 16h." />
+                android:fontFamily="sans-serif-black"
+                android:text="O Parque Zoológico Municipal “Quinzinho de Barros” funciona de terça a domingo, inclusive aos feriados,  das 09h às 17h. Excepcionalmente, estará aberto às segundas-feiras, sempre que for feriado ou véspera de feriado. A bilheteria funciona até as 16h."
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#3F51B5" />
 
             <Button
                 android:id="@+id/button9"

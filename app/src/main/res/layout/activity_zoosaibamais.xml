@@ -27,7 +27,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
+
                 app:srcCompat="@mipmap/sorozoo"
                 tools:srcCompat="@mipmap/sorozoo" />
 
@@ -35,7 +35,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
+
                 app:srcCompat="@mipmap/bixos"
                 tools:srcCompat="@mipmap/bixos" />
 
@@ -43,14 +43,17 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
+
                 app:srcCompat="@mipmap/leao" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Zoologico de Sorocaba Rua Teodoro Kaisel, 883 Sorocaba - SP Vila Hortência - CEP: 18020-268 Atendimento telefônico de segunda à sexta (exceto feriados) das 8h30min às 16h30min: (15) 99115-4936" />
+                android:fontFamily="sans-serif-black"
+                android:text="Zoologico de Sorocaba Rua Teodoro Kaisel, 883 Sorocaba - SP Vila Hortência - CEP: 18020-268 Atendimento telefônico de segunda à sexta (exceto feriados) das 8h30min às 16h30min: (15) 99115-4936"
+                android:textAlignment="center"
+                android:textColor="#3F51B5" />
 
             <Button
                 android:id="@+id/button4"

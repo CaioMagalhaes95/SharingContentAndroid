@@ -8,22 +8,25 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:src="@tools:sample/avatars"
+        android:layout_width="421dp"
+        android:layout_height="431dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@mipmap/sorocaba" />
+        app:srcCompat="@mipmap/buh" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:lineSpacingExtra="24sp"
         android:text="Guia de Sorocaba"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="34sp"
+        android:typeface="serif"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -33,6 +36,7 @@
         android:layout_height="wrap_content"
         android:onClick="btnTelaZoo"
         android:text="Zoologico"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -51,6 +55,7 @@
         android:layout_height="wrap_content"
         android:onClick="btnTelaHead"
         android:text="Headliner"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
